@@ -15,7 +15,7 @@ var host = rif(HOST) || HOST
 
 
 server.connection({ 
-  port: 8000 // test with http://localhost:8000/api/ping
+  port: 80 // test with http://localhost:8000/api/ping
 })
 
 server.register(require('inert'))
